@@ -1,0 +1,9 @@
+go to .ssh file
+cd ~/.ssh
+then type ssh-keygen and click enter it will save 2 file i.e. private key in id_rsa and public key in id-rsa.pub.
+cat id_rsa.pub to copy the public file or type cat ~/.ssh/id_rsa.pub
+copy the file and add it in setting of Github or Bitbucket 
+"We need to ensure that we start the ssh-agent before we use ssh-add"
+type:
+eval `ssh-agent -s`
+then add your ssh by type:  ssh-add or ssh-add ~/.ssh/id_rsa
