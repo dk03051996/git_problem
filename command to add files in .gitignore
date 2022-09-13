@@ -1,0 +1,12 @@
+Make sure to commit your code first before doing anything
+then add the file in .gitignore for ex: *.yml or main or .env 
+then perform this command
+
+
+
+git rm -rf --cached .
+git add .
+it will show that filed written in .gitignore is deleted
+then commit the code by writing
+sudo git commit -m ".gitignore is working fine"
+then .giginore will work properly
